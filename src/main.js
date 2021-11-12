@@ -3,7 +3,7 @@ let number1 = Math.floor(Math.random()*50)+1
 let number2 = Math.floor(Math.random()*50)+1
 
 // Define and initialize the variable guess that stores user input
-let guess = parseInt(`What is the result of ${ number1 } + ${ number2 }`,10)
+let guess = parseInt(prompt(`What is the result of ${ number1 } + ${ number2 }`),10)
 
 // Check if the answer is correct and tell the information to the user
 if((number1+number2) == guess){
