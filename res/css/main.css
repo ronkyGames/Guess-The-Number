@@ -2,4 +2,16 @@
   width: 640px;
   height: 480px;
   margin: auto;
+  background-color: green;
+}
+
+/* Guess the number styles */
+.guess-the-number-text{
+	display: inline;
+	width: 80%;
+	height: 80%;
+	margin:10%;
+	background-color: blue;
+	text-align: center;
+  	vertical-align: middle;
 }
