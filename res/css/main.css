@@ -13,7 +13,7 @@ body{
 
 /* Guess the number styles */
 .guess-the-number-h1{
-	display: inline-block;
+	display: block;
 	width: 80%;
 	margin-top:10%;
   margin-left: 10%;
@@ -24,7 +24,7 @@ body{
 }
 
 .guess-the-number-form{
-  display: inline-block;
+  display: block;
 	width: 80%;
 	margin-top:0;
   margin-left: 10%;
