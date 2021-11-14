@@ -1,17 +1,35 @@
+body{
+  margin:0;
+}
+
 #board{
-  width: 640px;
-  height: 480px;
-  margin: auto;
-  background-color: green;
+  width: 80%;
+  height: 60%;
+  margin-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20%;
 }
 
 /* Guess the number styles */
-.guess-the-number-text{
-	display: inline;
+.guess-the-number-h1{
+	display: inline-block;
 	width: 80%;
-	height: 80%;
-	margin:10%;
-	background-color: blue;
+	margin-top:10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 0;
+  line-height: 2.5em;
 	text-align: center;
-  	vertical-align: middle;
+}
+
+.guess-the-number-form{
+  display: inline-block;
+	width: 80%;
+	margin-top:0;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  line-height: 2em;
+	text-align: center;
 }
