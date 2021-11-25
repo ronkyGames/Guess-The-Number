@@ -11,6 +11,47 @@ body{
   margin-bottom: 20%;
 }
 
+#guess{
+  width:20%;
+  text-align: left;
+  margin-left: 2%;
+  font-weight: bold;
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  box-sizing: content-box;
+  border: 2px solid black;
+  font-size: 1.5em;
+}
+
+td,th{
+  border: 1px solid black;
+  line-height: 2em;
+  padding: 5%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+td{
+  width: 2.5em;
+}
+
+td:hover{
+  background-color: lightgrey;
+}
+
+td:active{
+  background-color: green;
+}
+
+td:focus{
+  background-color: green;
+  color: white;
+}
+
 /* Guess the number styles */
 .guess-the-number-h1{
 	width: 80%;
@@ -22,12 +63,12 @@ body{
 	text-align: center;
 }
 
-.guess-the-number-form{
-	width: 80%;
+.guess-the-number-p{
+	width: 30%;
 	margin-top:0;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-bottom: 10%;
-  line-height: 2em;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-bottom: 2%;
+  line-height: 1.5em;
 	text-align: center;
 }
