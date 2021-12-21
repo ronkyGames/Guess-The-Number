@@ -26,9 +26,6 @@ let guess = 0
 
   table.innerHTML = `
   <tr>
-    <td colspan="3" id="key0" tabindex="0">0</td>
-  </tr>
-  <tr>
     <td id='key1' tabindex="0">1</td>
     <td id='key2' tabindex="0">2</td>
     <td id='key3' tabindex="0">3</td>
@@ -44,7 +41,8 @@ let guess = 0
     <td id='key9' tabindex="0">9</td>
   </tr>
   <tr>
-    <td colspan="3" id="submit" tabindex="0">Submit</td>
+  	<td colspan="1" id="key0" tabindex="0">0</td>
+    <td colspan="2" id="submit" tabindex="0">Submit</td>
   </tr>
   `
   board.append(table)
@@ -85,10 +83,6 @@ let guess = 0
     }
     board.append(h2)
   },false)
-
-
-
-
 
 // Functions
 
