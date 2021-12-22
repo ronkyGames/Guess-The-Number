@@ -28,7 +28,7 @@ let guess // = parseInt(prompt(`What is the result of ${ number1 } + ${ number2 
 
 // Check if the answer is correct and tell the information to the user
 if((number1+number2) == guess){
-  alert("The answer is correct. You Win!")
+  board.innerHTML = resultCorrect
 }else{
-  alert("The answer is wrong. You lose!")
+  board.innerHTML = resultWrong
 }
