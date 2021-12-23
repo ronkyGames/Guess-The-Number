@@ -23,12 +23,26 @@ const resultWrong = `<h2>
 let number1 = Math.floor(Math.random()*50)+1
 let number2 = Math.floor(Math.random()*50)+1
 
-// Define and initialize the variable guess that stores user input
-let guess // = parseInt(prompt(`What is the result of ${ number1 } + ${ number2 }`),10)
+// Define the question variable
+let question = `<h2>
+                  Write the result of <br/>
+                  ${number1} + ${number2}
+                </h2>`
 
-// Check if the answer is correct and tell the information to the user
-if((number1+number2) == guess){
-  board.innerHTML = resultCorrect
-}else{
-  board.innerHTML = resultWrong
+// Insert content in board
+board.innerHTML = question + answer
+
+// Get the submit from the html page and add an event listener of click
+const submit = document.getElementById("submit")
+submit.addEventListener("click", (event) => {
+  
+  // Define and initialize the variable guess that stores user input
+  let guess // = parseInt(prompt(`What is the result of ${ number1 } + ${ number2 }`),10)
+
+  // Check if the answer is correct and tell the information to the user
+  if((number1+number2) == guess){
+    board.innerHTML = resultCorrect
+  }else{
+    board.innerHTML = resultWrong
+  }
 }
