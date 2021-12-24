@@ -45,4 +45,4 @@ submit.addEventListener("click", (event) => {
   }else{
     board.innerHTML = resultWrong
   }
-}
+},false)
